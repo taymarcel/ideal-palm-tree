@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will
  * include all the files listed below.
@@ -15,11 +16,11 @@
  */
 
 #banner {
-  background: #9c9;
+  background: #2F4F4F;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  color: white;
   text-align: center;
 
   img {
@@ -37,7 +38,7 @@
 }
 
 #columns {
-  background: #141;
+  background: #2F4F4F;
 
   #main {
     margin-left: 17em;
@@ -50,7 +51,7 @@
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #2F4F4F;
 
     form, div {
       display: inline;
@@ -78,7 +79,8 @@
         list-style: none;
 
         a {
-          color: #bfb;
+          text-decoration:none;
+          color: white;
           font-size: small;
         }
       }
@@ -86,3 +88,42 @@
   }
 //
 }
+
+//
+.depot_form {
+  fieldset {
+    background: #cce6ff;
+    border: none;
+
+    legend {
+      color: white;
+      background: #006666;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+  }
+
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+
+    .submit {
+      margin-left: 4em;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
+//

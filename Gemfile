@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bcrypt-ruby'
 gem 'rails'
 gem 'sass-rails'
 gem 'uglifier'
